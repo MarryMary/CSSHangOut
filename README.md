@@ -1,2 +1,2 @@
 # CSSHangOut
-CSS HangOut
+CSSで遊ぼうの会
