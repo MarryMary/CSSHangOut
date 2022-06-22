@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(235, 239, 255);
+}
+
+.sidebar{
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    transition: .5s;
+}
+
+.sidebar-open{
+    width: 15%;
+    height: 100vh;
+    background: lightgray;
+    
+}
+
+.sidebar li{
+    list-style: none;
+}
+
+.button{
+    text-align: center;
+}
+
+.button:hover{
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+.rooms{
+    height: 100%;
+    padding: 5%;
+}
+
+.userimg{
+    float: left;
+    width: 30%;
+    border-radius: 30%;
+    margin-right: 10px;
+}
+
+.open-button{
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 80%;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.close-button{
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    font-size: 80%;
+    margin: 10px;
+    margin-left: 16%;
+    padding: 10px;
+    outline: none; 
+}
+
+.open-button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
